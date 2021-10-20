@@ -1,5 +1,5 @@
-public class Transaction extends Thing {
-	private static final long serialVersionUID = 1530053204090450305L;
+public class Transaction implments Serializable {
+	private static final long serialVersionUID = 1L;
 	private int transactionID;
 	private int clientID;
 	private double balance;
